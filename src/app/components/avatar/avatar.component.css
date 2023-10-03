@@ -1,0 +1,20 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 400px;
+}
+
+.container .avatar {
+  background-image: url(../../../assets/circulo-azul.webp);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 600px;
+
+  border: 14px outset #535EDC;
+  width: 100%;
+  border-radius: 50%;
+
+  box-shadow: 10px 10px 20px #2B2C31 inset;
+}

@@ -1,0 +1,70 @@
+
+
+h1 {
+  font-size: 3.8rem;
+}
+
+span {
+  display: block;
+  margin: 18px 0;
+
+  color: lightgray;
+
+  font-size: 1.3rem;
+}
+
+.title--interaction {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title--interaction button {
+  font-size: 1em;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  width: 200px;
+  height: 60px;
+  border-radius: 10px 10px;
+  border: none;
+
+  background-color: #535EDC;
+}
+
+.title--interaction button:hover {
+  background-color: #4952bd;
+}
+
+.social-media {
+  display: flex;
+  font-size: 2.6rem;
+  width: 150px;
+
+  margin-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-media a i{
+  color: #a5a5a5;
+}
+
+.social-media a .fa-github:hover {
+  background: linear-gradient(to bottom, #9A93B1,
+  #4E4C8A);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.social-media a .fa-linkedin:hover {
+  color: #126BC4;
+}
+
+.social-media a .fa-whatsapp:hover {
+  background: linear-gradient(to top, #5EF67C,
+  #38C33A);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  color: #38C33A;
+}

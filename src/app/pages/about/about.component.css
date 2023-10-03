@@ -1,0 +1,16 @@
+.container {
+  background-color: #2b2c31cb;
+  font-size: 1.5rem;
+  padding: 40px;
+}
+
+p {
+  margin: 20px;
+  text-indent: 30px;
+}
+
+app-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
